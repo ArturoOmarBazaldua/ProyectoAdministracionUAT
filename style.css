@@ -53,12 +53,84 @@ justify-content: flex-end;
     
 }
 .a{
-    margin: 4rem;
+    height: 20rem;
+    background-image: url(https://bloglatam.jacto.com/wp-content/uploads/2022/04/campos-de-cultivo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50rem;
+    margin: 0rem;
     display: flex;
 } 
 
 .titulo {
+    height: 40rem;
+    background-image: url(https://justatic.com/v/20240813134449/marketing/files/new/production/images/mexico/organizations/uat-facultad-de-derecho-y-ciencias-sociales-logo.png);
+    background-repeat: no-repeat;
+    background-size: 15rem 15rem;
+    background-position: 20% 10%;
+    margin-left: 3rem;
+    margin-top: 4rem;
     font-family: sans-serif;
-   color: black; 
-   font-size: 2.5rem;
+   color: rgb(231, 231, 231); 
+   font-size: 5rem;
+   font-weight: 600 ;
+}
+
+.main-container {
+    justify-content: center;
+    display: flex;
+    height: 100rem;
+    background-color: rgb(235, 237, 240);
+}
+
+.productos-destacados {
+    position: absolute; left: 3%;
+    color: rgb(80, 80, 80);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    border-radius: 10px;
+    margin-top: 7rem;
+    margin-right: 5rem;
+    height: 25rem;
+    background-color: rgb(225, 230, 235);
+}
+.p2 {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    border-radius: 10px;
+    margin-top: 7rem;
+    margin-right: 5rem;
+    height: 25rem;
+    background-color: rgb(225, 230, 235);
+}
+.p3 {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    border-radius: 10px;
+    margin-top: 7rem;
+    height: 25rem;
+    background-color: rgb(225, 230, 235);
+}
+.precios {
+    margin-left: 0.8rem;
+}
+.di-p1 > p {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(110, 110, 110);
+}
+
+.di-p1 {
+    margin-top: 14.5rem;
 }
